@@ -3,7 +3,14 @@ name = "rs-arrow-ints2zeek"
 version = "0.1.0"
 edition = "2024"
 
+description = "Converts the ints in the array to zstd seekable."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-arrow-ints2zeek"
+documentation = "https://docs.rs/rs-arrow-ints2zeek/latest"
+keywords = ["arrow", "seekable", "integer", "zstd", "convert"]
+
 exclude = [
+  "arrow-ints2zeek.wasm",
 ]
 
 [lints.rust]
